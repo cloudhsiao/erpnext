@@ -5,6 +5,5 @@ apt-get update && apt-get install -y wget ca-certificates sudo cron supervisor
 
 wget https://raw.githubusercontent.com/frappe/bench/master/install_scripts/setup_frappe.sh
 bash setup_frappe.sh
-rm /home/frappe/*.deb
 
 exit 0
