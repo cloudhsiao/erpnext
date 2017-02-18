@@ -1,4 +1,4 @@
-FROM debian:wheezy
+FROM ubuntu:trusty
 
 
 ENV FRAPPE_USER frappe
