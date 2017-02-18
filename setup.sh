@@ -1,4 +1,5 @@
 #!/bin/bash
+
 apt-get update && apt-get install -y wget ca-certificates sudo cron supervisor
 /usr/bin/supervisord
 
